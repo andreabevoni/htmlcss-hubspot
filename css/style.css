@@ -1,4 +1,46 @@
-/* debug */
-body{
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* parte relativa all'header  */
+header{
+
+  /* debug */
+  height: 300px;
+  background-color: green;
+}
+
+/* parte relativa alla prima sezione */
+.sezione-uno{
+
+  /* debug */
+  height: 400px;
   background-color: red;
+}
+
+/* parte relativa alla seconda sezione */
+.sezione-due{
+
+  /* debug */
+  height: 200px;
+  background-color: orange;
+}
+
+/* parte relativa alla terza sezione */
+.sezione-tre{
+
+  /* debug */
+  height: 200px;
+  background-color: yellow;
+}
+
+/* parte relativa al footer */
+footer{
+
+  /* debug */
+  height: 300px;
+  background-color: blue;
 }
