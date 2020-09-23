@@ -3,6 +3,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenitore{
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+/* regole per i link */
+a{
+  text-decoration: none;
+}
+
+.blue{
+  color: #191970;
+  font-weight: bold;
+}
+
+a.blue:hover{
+  color: #009699;
+  text-decoration: underline;
+}
+
+.button.white{
+  color: #ff6600;
+  background-color: #ffffff;
+  border: 1px solid #ff6600;
+}
+
+.button.orange{
+  color: #ffffff;
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+.button.piccolo{
+  padding: 10px;
+  border-radius: 5px;
 }
 
 /* parte relativa all'header  */
@@ -17,18 +57,44 @@
 .nav-top{
   background-color: #DCDCDC;
   border-bottom: 2px solid #808080;
-  /* debug */
-  height: 100px;
+  height: 80px;
+}
+
+.nav-top-sx {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.nav-top-sx > .divisore{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-top-dx {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+#searchbar{
+  color: #009699;
+  font: 20px;
+}
+
+.nav-top-dx > a{
+  margin-left: 20px;
 }
 
 .nav-bottom{
   background-color: #F8F8FF;
-  /* debug */
-  height: 100px;
+  height: 80px;
 }
 
 .jumbotron{
-  margin-top: 200px;
+  margin-top: 160px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-position: bottom;
