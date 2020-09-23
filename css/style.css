@@ -28,10 +28,21 @@ a.blue:hover{
   text-decoration: underline;
 }
 
+.button{
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .button.white{
   color: #ff6600;
   background-color: #ffffff;
   border: 1px solid #ff6600;
+}
+
+.button.white:hover{
+  color: rgba(255,102,0,0.4);
+  background-color: rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,102,0,0.4);
 }
 
 .button.orange{
@@ -40,9 +51,10 @@ a.blue:hover{
   border: 1px solid #ff6600;
 }
 
-.button.piccolo{
-  padding: 10px;
-  border-radius: 5px;
+.button.orange:hover{
+  color: rgba(255,255,255,0.4);
+  background-color: rgba(255,102,0,0.4);
+  border: 1px solid rgba(255,102,0,0.4);
 }
 
 /* parte relativa all'header  */
