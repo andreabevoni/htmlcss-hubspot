@@ -380,13 +380,28 @@ a.blue:hover{
   width: 80%;
 }
 
+/* parte relativa al contenitore inferiore */
 
+.sezione-tre .bottom .left{
+  float: left;
+  margin-top: 100px;
+  width: 40%;
+}
 
+.sezione-tre .bottom .left *{
+  margin-bottom: 50px;
+}
 
+.sezione-tre .bottom .left .subtext{
+  margin-top: 50px;
+  font-size: 12px;
+}
 
-
-
-
+.sezione-tre .bottom img{
+  float: right;
+  width: 25%;
+  margin-top: 50px;
+}
 
 
 /* FOOTER */
