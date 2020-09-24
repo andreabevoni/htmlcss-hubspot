@@ -462,3 +462,38 @@ h5{
   display: inline-block;
   margin-right: 20px;
 }
+
+/* regole per la parte inferiore del footer */
+.scelta-lingua{
+  padding: 50px 0 10px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.lingue{
+  text-align: center;
+}
+
+.lingue li{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.copyright{
+  float: left;
+  margin: 40px 0;
+}
+
+h6{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.legal{
+  float: right;
+  margin-top: 40px;
+}
+
+.legal li{
+  display: inline-block;
+  margin-left: 20px;
+}
