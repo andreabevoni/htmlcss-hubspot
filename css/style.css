@@ -362,15 +362,24 @@ a.blue:hover{
   padding: 50px 0;
 }
 
-
-.partners{
-  float: left;
-  width: 80%;
-
-  /* debug */
-  background-color: red;
-  height: 200px;
+.lista-partner{
+  float: right;
+  width: 55%;
+  margin-top: 50px;
 }
+
+.partner{
+  float: left;
+  margin: 10px 5px 20px;
+  width: calc(100% / 4 - 10px);
+  vertical-align: middle;
+  text-align: center;
+}
+
+.partner img{
+  width: 80%;
+}
+
 
 
 
