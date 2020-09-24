@@ -58,13 +58,11 @@ a.blue:hover{
 .button.orange{
   color: #ffffff;
   background-color: #ff6600;
-  border: 1px solid #ff6600;
 }
 
 .button.orange:hover{
   color: rgba(255,255,255,0.4);
   background-color: rgba(255,102,0,0.4);
-  border: 1px solid rgba(255,102,0,0.4);
 }
 
 /* HEADER */
@@ -167,12 +165,34 @@ a.blue:hover{
 }
 
 /* SEZIONE UNO */
-
-/* parte relativa alla prima sezione */
+/* regole generali sezione uno */
 .sezione-uno{
   background-color: #DCDCDC;
 }
 
+.check{
+  color: #ffffff;
+  background-color: #ff6600;
+  border-radius: 50%;
+  padding: 1px 3px;
+}
+
+.sezione-uno h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.sezione-uno h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.sezione-uno h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* parte relativa alla parte centrale fuori dalle box */
 .sezione-uno-centrale{
   text-align: center;
   padding: 40px 0;
@@ -184,11 +204,7 @@ a.blue:hover{
   max-width: 30%;
 }
 
-.sezione-uno-centrale > h2{
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
+/* parte relativa alle parti dentro alle box bianche */
 .box{
   background-color: #fff;
   border-radius: 5px;
@@ -196,22 +212,84 @@ a.blue:hover{
   margin-bottom: 40px;
 }
 
-.box.orizzontale{
-  /* debug */
-  height: 300px;
+.box .parte-sinistra {
+  float:left;
+  width: 30%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box .parte-sinistra img{
+  max-width: 50%;
+  margin-bottom: 30px;
+}
+
+.box .parte-destra {
+  float:left;
+  width: 60%;
+  padding: 50px 30px;
+}
+
+.box .parte-destra h4{
+  margin: 20px 40px 20px 0;
+  display: inline-block;
+}
+
+.box .parte-destra hr {
+  display: inline-block;
+  width: 65%;
+}
+
+.box .parte-destra li {
+  display: inline-block;
+}
+
+.box .parte-destra .text {
+  margin: 0 10px;
 }
 
 .box.verticale{
   float: left;
   width: 30%;
+  text-align: center;
+  padding: 20px 40px;
 
   /* debug */
-  height: 500px;
+  /* height: 500px; */
 }
 
 .box.centrale{
   margin: 0 5%;
 }
+
+.box.verticale img{
+  max-width: 30%;
+  margin-bottom: 20px;
+}
+
+.box.verticale hr{
+  margin: 40px 0 20px 0;
+}
+
+.box.verticale ul{
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.box.verticale .button{
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* SEZIONE DUE */
 
