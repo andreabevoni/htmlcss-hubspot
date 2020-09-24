@@ -293,13 +293,48 @@ a.blue:hover{
 
 /* SEZIONE DUE */
 
-/* parte relativa alla seconda sezione */
+/* regole generali sezione due */
 .sezione-due{
+  background-color: #00CED1;
+  color: #ffffff;
+  text-align: center;
 
   /* debug */
-  height: 200px;
-  background-color: orange;
+  /* height: 600px; */
 }
+
+.sezione-due .contenitore > h2{
+  font-size: 40px;
+  padding: 50px;
+}
+
+.tabella{
+  margin: 50px 0 100px 0;
+}
+
+.casella{
+  float: left;
+  width: calc(100% / 4);
+}
+
+.casella.right{
+  border-right: 1px solid #ffffff;
+}
+
+.casella.bottom{
+  border-bottom: 1px solid #ffffff;
+}
+
+.casella h2{
+  font-size: 40px;
+}
+
+.casella img, .casella .subtext{
+  margin: 20px 0;
+}
+
+
+
 
 /* SEZIONE TRE */
 
