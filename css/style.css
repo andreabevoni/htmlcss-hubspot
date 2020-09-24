@@ -24,6 +24,10 @@ p{
   line-height: 2;
 }
 
+ul{
+  list-style-type: none;
+}
+
 /* regole generali per i link e i "pulsanti" */
 a{
   text-decoration: none;
@@ -34,7 +38,7 @@ a{
   font-weight: bold;
 }
 
-a.blue:hover{
+a.blue:hover, a.white:hover{
   color: #009699;
   text-decoration: underline;
 }
@@ -288,7 +292,6 @@ a.blue:hover{
 
 .box.verticale .bottom ul{
   text-align: left;
-  list-style-type: none;
   margin-bottom: 50px;
 }
 
@@ -381,7 +384,6 @@ a.blue:hover{
 }
 
 /* parte relativa al contenitore inferiore */
-
 .sezione-tre .bottom .left{
   float: left;
   margin-top: 100px;
@@ -406,10 +408,40 @@ a.blue:hover{
 
 /* FOOTER */
 
-/* parte relativa al footer */
+/* regole generali footer */
 footer{
+  background-color: #2F4F4F;
+  color: #ffffff;
 
   /* debug */
-  height: 300px;
-  background-color: blue;
+  height: 800px;
+}
+
+/* regole per le colonne di link */
+
+.contenitore-link{
+  padding-top: 50px;
+}
+
+.colonna-link {
+  float: left;
+  width: calc(100% / 4);
+
+  /* debug */
+  /* background-color: red; */
+  /* height: 500px; */
+}
+
+.colonna-link li{
+  margin-bottom: 20px;
+}
+
+h5{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.white{
+  color: #cccccc;
+  font-weight: bold;
 }
