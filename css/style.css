@@ -13,6 +13,12 @@
   position: relative;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* regole generali per i link e i "pulsanti" */
 a{
   text-decoration: none;
@@ -164,10 +170,47 @@ a.blue:hover{
 
 /* parte relativa alla prima sezione */
 .sezione-uno{
+  background-color: #DCDCDC;
+}
+
+.sezione-uno-centrale{
+  text-align: center;
+  padding: 40px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.sezione-uno-centrale > img{
+  max-width: 30%;
+}
+
+.sezione-uno-centrale > h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.box{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.box.orizzontale{
+  /* debug */
+  height: 300px;
+}
+
+.box.verticale{
+  float: left;
+  width: 30%;
 
   /* debug */
-  height: 400px;
-  background-color: red;
+  height: 500px;
+}
+
+.box.centrale{
+  margin: 0 5%;
 }
 
 /* SEZIONE DUE */
