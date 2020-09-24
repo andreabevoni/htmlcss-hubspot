@@ -38,7 +38,7 @@ a{
   font-weight: bold;
 }
 
-a.blue:hover, a.white:hover{
+a.blue:hover, a.grey:hover{
   color: #009699;
   text-decoration: underline;
 }
@@ -72,6 +72,16 @@ a.blue:hover, a.white:hover{
 .button.orange:hover{
   color: rgba(255,255,255,0.4);
   background-color: rgba(255,102,0,0.4);
+}
+
+.button.dark{
+  color: rgb(47,79,79);
+  background-color: rgb(220,220,220);
+}
+
+.button.dark:hover{
+  color: rgba(47,79,79,0.4);
+  background-color: rgba(220, 220, 220,0.4);
 }
 
 /* HEADER */
@@ -412,9 +422,6 @@ a.blue:hover, a.white:hover{
 footer{
   background-color: #2F4F4F;
   color: #ffffff;
-
-  /* debug */
-  height: 800px;
 }
 
 /* regole per le colonne di link */
@@ -441,7 +448,17 @@ h5{
   margin-bottom: 30px;
 }
 
-.white{
-  color: #cccccc;
+.grey{
+  color: #DCDCDC;
   font-weight: bold;
+}
+
+/* non funziona */
+/* .colonna-link .button{
+  margin: 50px 0;
+} */
+
+.social li{
+  display: inline-block;
+  margin-right: 20px;
 }
