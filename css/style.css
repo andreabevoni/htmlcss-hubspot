@@ -19,6 +19,11 @@
   clear: both;
 }
 
+/* regole generali per il font */
+p{
+  line-height: 2;
+}
+
 /* regole generali per i link e i "pulsanti" */
 a{
   text-decoration: none;
@@ -265,7 +270,7 @@ a.blue:hover{
 }
 
 .box.verticale .top{
-  min-height: 300px;
+  min-height: 350px;
 }
 
 .box.verticale .bottom{
@@ -298,9 +303,6 @@ a.blue:hover{
   background-color: #00CED1;
   color: #ffffff;
   text-align: center;
-
-  /* debug */
-  /* height: 600px; */
 }
 
 .sezione-due .contenitore > h2{
@@ -308,6 +310,7 @@ a.blue:hover{
   padding: 50px;
 }
 
+/* regole per la tabella centrale */
 .tabella{
   margin: 50px 0 100px 0;
 }
@@ -333,18 +336,49 @@ a.blue:hover{
   margin: 20px 0;
 }
 
-
-
-
 /* SEZIONE TRE */
 
-/* parte relativa alla terza sezione */
+/* regole generali sezione tre */
 .sezione-tre{
+  background-color: #ffffff;
+}
+
+.sezione-tre h2{
+  font-size: 40px;
+}
+
+/* parte relativa al contenitore superiore */
+.sezione-tre .top{
+  width: 85%;
+  margin: auto;
+}
+
+.sezione-tre .text{
+  float: left;
+  width: 20%;
+}
+
+.sezione-tre .top h2{
+  padding: 50px 0;
+}
+
+
+.partners{
+  float: left;
+  width: 80%;
 
   /* debug */
+  background-color: red;
   height: 200px;
-  background-color: yellow;
 }
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 
