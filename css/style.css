@@ -165,6 +165,7 @@ a.blue:hover{
 }
 
 /* SEZIONE UNO */
+
 /* regole generali sezione uno */
 .sezione-uno{
   background-color: #DCDCDC;
@@ -190,6 +191,10 @@ a.blue:hover{
 .sezione-uno h4{
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.sezione-uno .text{
+  margin: 0 10px;
 }
 
 /* parte relativa alla parte centrale fuori dalle box */
@@ -226,8 +231,12 @@ a.blue:hover{
 
 .box .parte-destra {
   float:left;
-  width: 60%;
+  width: 70%;
   padding: 50px 30px;
+}
+
+.box .parte-destra p {
+  max-width: 70%;
 }
 
 .box .parte-destra h4{
@@ -237,15 +246,11 @@ a.blue:hover{
 
 .box .parte-destra hr {
   display: inline-block;
-  width: 65%;
+  width: 60%;
 }
 
 .box .parte-destra li {
   display: inline-block;
-}
-
-.box .parte-destra .text {
-  margin: 0 10px;
 }
 
 .box.verticale{
@@ -253,43 +258,38 @@ a.blue:hover{
   width: 30%;
   text-align: center;
   padding: 20px 40px;
-
-  /* debug */
-  /* height: 500px; */
 }
 
 .box.centrale{
   margin: 0 5%;
 }
 
-.box.verticale img{
-  max-width: 30%;
+.box.verticale .top{
+  height: 300px;
+}
+
+.box.verticale .bottom{
+  height: 250px;
+}
+
+.box.verticale .top img{
+  max-height: 30%;
   margin-bottom: 20px;
 }
 
-.box.verticale hr{
-  margin: 40px 0 20px 0;
+.box.verticale .bottom hr{
+  margin-bottom: 40px;
 }
 
-.box.verticale ul{
+.box.verticale .bottom ul{
   text-align: left;
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-.box.verticale .button{
-  margin-bottom: 200px;
+.box.verticale .bottom li{
+  margin: 1px 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* SEZIONE DUE */
 
