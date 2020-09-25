@@ -349,6 +349,10 @@ a.blue:hover, a.grey:hover{
   margin: 20px 0;
 }
 
+.casella img{
+  height: 40px;
+}
+
 /* SEZIONE TRE */
 
 /* regole generali sezione tre */
