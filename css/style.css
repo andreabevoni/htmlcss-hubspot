@@ -410,11 +410,42 @@ a.blue:hover, a.grey:hover{
   float: left;
   margin: 10px 5px;
   width: calc(100% / 4 - 10px);
-  text-align: center;
-
-  /* debug */
-  border: 1px solid black;
   height: 50px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#atlassian{
+  background-image: url(../img/atlassian.png);
+}
+
+#doordash{
+  background-image: url(../img/doordash.png);
+}
+
+#crowd{
+  background-image: url(../img/crowd.png);
+}
+
+#surveymonkey{
+  background-image: url(../img/surveymonkey.svg);
+}
+
+#subaru{
+  background-image: url(../img/subaru.png);
+}
+
+#wistia{
+  background-image: url(../img/wistia.png);
+}
+
+#classpass{
+  background-image: url(../img/classpass.png);
+}
+
+#vmware{
+  background-image: url(../img/vmware.png);
 }
 
 .partner img{
