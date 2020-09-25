@@ -223,10 +223,6 @@ a.blue:hover, a.grey:hover{
   margin-bottom: 20px;
 }
 
-.sezione-uno h5{
-  margin: 20px 0;
-}
-
 .sezione-uno .text{
   margin: 0 10px;
 }
@@ -278,7 +274,7 @@ a.blue:hover, a.grey:hover{
 }
 
 .box .parte-destra h5{
-  /* margin: 20px 40px 20px 0; */
+  margin: 20px 40px 20px 0;
   margin-right: 40px;
   display: inline-block;
 }
@@ -309,15 +305,16 @@ a.blue:hover, a.grey:hover{
 
 .box.verticale .bottom{
   min-height: 250px;
+  border-top: 2px solid #9A9A9A;
+}
+
+.box.verticale h5{
+  margin: 40px 0 20px;
 }
 
 .box.verticale .top img{
   height: 100px;
   margin-bottom: 20px;
-}
-
-.box.verticale .bottom hr{
-  margin-bottom: 40px;
 }
 
 .box.verticale .bottom ul{
@@ -447,10 +444,6 @@ footer{
 .colonna-link {
   float: left;
   width: calc(100% / 4);
-
-  /* debug */
-  /* background-color: red; */
-  /* height: 500px; */
 }
 
 .colonna-link li{
@@ -459,7 +452,7 @@ footer{
 
 .grey{
   color: #DCDCDC;
-h}
+}
 
 /* non funziona */
 /* .colonna-link .button{
