@@ -430,11 +430,11 @@ a.blue:hover, a.grey:hover{
 }
 
 .sezione-tre .bottom .left *{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-.sezione-tre .bottom .left .subtext{
-  margin-top: 50px;
+.sezione-tre .bottom .left .button{
+  display: inline-block;
 }
 
 .sezione-tre .bottom img{
@@ -470,9 +470,8 @@ footer{
   margin-bottom: 20px;
 }
 
-/* non funziona */
 .colonna-link .button{
-  margin: 50px 0;
+  display: inline-block;
 }
 
 .social li{
