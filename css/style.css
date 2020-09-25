@@ -114,6 +114,10 @@ a.blue:hover, a.grey:hover{
   margin: 0 20px;
 }
 
+.fa-globe-europe{
+  margin-right: 5px;
+}
+
 .nav-top-dx {
   position: absolute;
   top: 50%;
@@ -123,7 +127,6 @@ a.blue:hover, a.grey:hover{
 
 #searchbar{
   color: #009699;
-  font: 20px;
 }
 
 .nav-top-dx > a{
@@ -234,6 +237,10 @@ a.blue:hover, a.grey:hover{
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 40px;
+}
+
+.box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .box .parte-sinistra {
@@ -464,7 +471,7 @@ h5{
 
 .social li{
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 /* regole per la parte inferiore del footer */
