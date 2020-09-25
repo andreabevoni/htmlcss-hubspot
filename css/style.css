@@ -41,7 +41,6 @@ h5{
 
 h6{
   font-size: 16px;
-  margin-bottom: 30px;
 }
 
 .subtext{
@@ -63,7 +62,10 @@ a{
 
 .blue{
   color: #191970;
-  font-weight: bold;
+}
+
+.grey{
+  color: #DCDCDC;
 }
 
 a.blue:hover, a.grey:hover{
@@ -135,13 +137,13 @@ a.blue:hover, a.grey:hover{
   float: left;
 }
 
+.fa-globe-europe{
+  margin-right: 5px;
+}
+
 .nav-top-sx > .divisore{
   display: inline-block;
   margin: 0 20px;
-}
-
-.fa-globe-europe{
-  margin-right: 5px;
 }
 
 .nav-top-dx {
@@ -165,6 +167,10 @@ a.blue:hover, a.grey:hover{
 
 .nav-bottom .logo{
   float: left;
+}
+
+.nav-bottom .logo img{
+  vertical-align: middle;
 }
 
 .nav-elenco{
@@ -208,11 +214,13 @@ a.blue:hover, a.grey:hover{
   background-color: #DCDCDC;
 }
 
-.check{
+.fa-check{
+  font-size: 14px;
   color: #ffffff;
   background-color: #ff6600;
   border-radius: 50%;
-  padding: 1px 3px;
+  padding: 1px;
+  margin-right: 10px;
 }
 
 .sezione-uno h3{
@@ -221,10 +229,6 @@ a.blue:hover, a.grey:hover{
 
 .sezione-uno h4{
   margin-bottom: 20px;
-}
-
-.sezione-uno .text{
-  margin: 0 10px;
 }
 
 /* parte relativa alla parte centrale fuori dalle box */
@@ -241,7 +245,7 @@ a.blue:hover, a.grey:hover{
 
 /* parte relativa alle parti dentro alle box bianche */
 .box{
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 40px;
@@ -286,6 +290,7 @@ a.blue:hover, a.grey:hover{
 
 .box .parte-destra li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .box.verticale{
@@ -325,21 +330,20 @@ a.blue:hover, a.grey:hover{
   margin: 40px 0 20px;
 }
 
-
 .box.verticale .bottom ul{
   text-align: left;
   margin-bottom: 50px;
 }
 
 .box.verticale .bottom li{
-  margin: 1px 0;
+  margin: 2px 0;
 }
 
 /* SEZIONE DUE */
 
 /* regole generali sezione due */
 .sezione-due{
-  background-color: #00CED1;
+  background-image: linear-gradient(90deg, #17A1A3, #00CED1);
   color: #ffffff;
   text-align: center;
 }
@@ -392,26 +396,30 @@ a.blue:hover, a.grey:hover{
   width: 20%;
 }
 
-.sezione-tre .top h3{
-  padding: 50px 0;
+.sezione-tre .top h1{
+  padding: 40px 0;
 }
 
 .lista-partner{
   float: right;
   width: 55%;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .partner{
   float: left;
-  margin: 10px 5px 20px;
+  margin: 10px 5px;
   width: calc(100% / 4 - 10px);
-  vertical-align: middle;
   text-align: center;
+
+  /* debug */
+  border: 1px solid black;
+  height: 50px;
 }
 
 .partner img{
   width: 80%;
+  vertical-align: middle;
 }
 
 /* parte relativa al contenitore inferiore */
@@ -435,7 +443,6 @@ a.blue:hover, a.grey:hover{
   margin-top: 50px;
 }
 
-
 /* FOOTER */
 
 /* regole generali footer */
@@ -455,18 +462,18 @@ footer{
   width: calc(100% / 4);
 }
 
+.colonna-link h6{
+  margin-bottom: 30px;
+}
+
 .colonna-link li{
   margin-bottom: 20px;
 }
 
-.grey{
-  color: #DCDCDC;
-}
-
 /* non funziona */
-/* .colonna-link .button{
+.colonna-link .button{
   margin: 50px 0;
-} */
+}
 
 .social li{
   display: inline-block;
@@ -494,7 +501,6 @@ footer{
 }
 
 .copyright .subtext{
-  font-size: 14px;
   margin-top: 10px;
 }
 
