@@ -10,7 +10,6 @@
   width: 70%;
   height: 100%;
   margin: auto;
-  position: relative;
 }
 
 .clearfix::after{
@@ -100,13 +99,11 @@ a.blue:hover, a.grey:hover{
   background-color: #DCDCDC;
   border-bottom: 2px solid #808080;
   height: 80px;
+  line-height: 80px;
 }
 
 .nav-top-sx {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
+  float: left;
 }
 
 .nav-top-sx > .divisore{
@@ -119,10 +116,7 @@ a.blue:hover, a.grey:hover{
 }
 
 .nav-top-dx {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
+  float: right;
 }
 
 #searchbar{
@@ -137,20 +131,15 @@ a.blue:hover, a.grey:hover{
 .nav-bottom{
   background-color: #F8F8FF;
   height: 80px;
+  line-height: 80px;
 }
 
 .nav-bottom .logo{
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
+  float: left;
 }
 
 .nav-elenco{
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
+  float: right;
 }
 
 .nav-elenco li{
