@@ -19,6 +19,35 @@
 }
 
 /* regole generali per il font */
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 35px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-size: 18px;
+}
+
+h6{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.subtext{
+  font-size: 13px;
+}
+
 p{
   line-height: 2;
 }
@@ -160,19 +189,16 @@ a.blue:hover, a.grey:hover{
 .jumbotron h1{
   padding-top: 50px;
   width: 40%;
-  font-size: 50px;
 }
 
 .jumbotron p{
   margin: 25px 0 50px;
   width: 40%;
-  font-size: 16px;
 }
 
 .jumbotron .subtext{
   margin-top: 50px;
   width: 40%;
-  font-size: 12px;
 }
 
 /* SEZIONE UNO */
@@ -189,19 +215,16 @@ a.blue:hover, a.grey:hover{
   padding: 1px 3px;
 }
 
-.sezione-uno h2{
-  font-size: 30px;
+.sezione-uno h3{
   margin-bottom: 30px;
 }
 
-.sezione-uno h3{
-  font-size: 25px;
+.sezione-uno h4{
   margin-bottom: 20px;
 }
 
-.sezione-uno h4{
-  font-size: 20px;
-  margin-bottom: 20px;
+.sezione-uno h5{
+  margin: 20px 0;
 }
 
 .sezione-uno .text{
@@ -254,8 +277,9 @@ a.blue:hover, a.grey:hover{
   max-width: 70%;
 }
 
-.box .parte-destra h4{
-  margin: 20px 40px 20px 0;
+.box .parte-destra h5{
+  /* margin: 20px 40px 20px 0; */
+  margin-right: 40px;
   display: inline-block;
 }
 
@@ -314,8 +338,7 @@ a.blue:hover, a.grey:hover{
   text-align: center;
 }
 
-.sezione-due .contenitore > h2{
-  font-size: 40px;
+.sezione-due .contenitore > h3{
   padding: 50px;
 }
 
@@ -337,10 +360,6 @@ a.blue:hover, a.grey:hover{
   border-bottom: 1px solid #ffffff;
 }
 
-.casella h2{
-  font-size: 40px;
-}
-
 .casella img, .casella .subtext{
   margin: 20px 0;
 }
@@ -356,10 +375,6 @@ a.blue:hover, a.grey:hover{
   background-color: #ffffff;
 }
 
-.sezione-tre h2{
-  font-size: 40px;
-}
-
 /* parte relativa al contenitore superiore */
 .sezione-tre .top{
   width: 85%;
@@ -371,7 +386,7 @@ a.blue:hover, a.grey:hover{
   width: 20%;
 }
 
-.sezione-tre .top h2{
+.sezione-tre .top h3{
   padding: 50px 0;
 }
 
@@ -406,7 +421,6 @@ a.blue:hover, a.grey:hover{
 
 .sezione-tre .bottom .left .subtext{
   margin-top: 50px;
-  font-size: 12px;
 }
 
 .sezione-tre .bottom img{
@@ -443,15 +457,9 @@ footer{
   margin-bottom: 20px;
 }
 
-h5{
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
 .grey{
   color: #DCDCDC;
-  font-weight: bold;
-}
+h}
 
 /* non funziona */
 /* .colonna-link .button{
@@ -483,8 +491,8 @@ h5{
   margin: 40px 0;
 }
 
-h6{
-  font-size: 12px;
+.copyright .subtext{
+  font-size: 14px;
   margin-top: 10px;
 }
 
